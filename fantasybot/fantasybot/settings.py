@@ -40,6 +40,8 @@ DEAFULT_APPS = (
 
 THIRD_PARTY_APPS = (
         'south',
+        #'rest_framework',
+        #'fab',
 )
 
 LOCAL_APPS = (
