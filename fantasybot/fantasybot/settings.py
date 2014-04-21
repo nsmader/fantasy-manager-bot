@@ -42,7 +42,9 @@ THIRD_PARTY_APPS = (
         'south',
 )
 
-LOCAL_APPS = ()
+LOCAL_APPS = (
+        'fantasymanager',
+        )
 
 INSTALLED_APPS = DEAFULT_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 
