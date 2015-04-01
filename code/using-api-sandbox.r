@@ -10,6 +10,7 @@ consumer.secret <- keys[2, 1]
 
 # See example code online -- http://blog.corynissen.com/2013/12/using-r-to-analyze-yahoo-fantasy.html
 # A tutorial on Yahoo's OAuth protocol -- https://nullinfo.wordpress.com/oauth-yahoo/
+# Sample API interactions code in R: https://github.com/bcrossman/yahoofantasyscrape/blob/master/api.R
 
 # Establish connection
   yahoo <- oauth_endpoint("get_request_token", "request_auth", "get_token",
